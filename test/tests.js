@@ -610,7 +610,7 @@ describe("Ebookcoin JS", function () {
 			});
 
 			describe(".interval", function () {
-				var interval = slots.interval;
+				var interval = constants.interval;
 
 				it("should be ok", function () {
 					(interval).should.be.ok;
@@ -622,7 +622,7 @@ describe("Ebookcoin JS", function () {
 			});
 
 			describe(".delegates", function () {
-				var delegates = slots.delegates;
+				var delegates = constants.delegates;
 
 				it("should be ok", function () {
 					(delegates).should.be.ok;
